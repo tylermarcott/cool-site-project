@@ -19,7 +19,7 @@ header {
 
 body {
   outline: 1px dotted purple;
-  background-color: var(--testBackground);
+  background-color: var(--background);
   margin: 0;
 }
 
@@ -27,6 +27,9 @@ footer {
   background-color: var(--colorLight);
 }
 
+h2 {
+  color: var(--colorLight)
+}
 
 .main-text-card {
   width: 50%;
@@ -39,6 +42,7 @@ footer {
 
 .main-text {
   color: var(--colorLight);
+  font-size: 10pt;
 }
 
 .main-title {
@@ -47,17 +51,18 @@ footer {
 
 .upper-footer {
   padding: 0.5em;
+  justify-content: space-between;
 }
 
 .lower-footer {
   background-color: var(--gray);
   padding: 3em;
+  justify-content: center;
 }
 
-.image-card {
-  /* padding: 2em;
-  width: 50%;
-  justify-content: left; */
+.header-buttons {
+  text-decoration: none;
+  font-size: 10pt;
 }
 
 .d-flex {
