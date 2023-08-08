@@ -1,9 +1,17 @@
+* {
+  outline: 1px dotted purple;
+  padding: 5px;
+}
+
 :root {
   --background: #061130;
   --testBackground: rgb(75, 75, 160);
   --colorLight: #f4f6f8;
   --gray: #dadada;
+  --yellow: #fafd61;
 }
+
+
 
 header {
   justify-content: space-between;
@@ -20,12 +28,21 @@ footer {
 }
 
 
-.header-buttons {
-  justify-content: space-between;
+.main-text-card {
+  width: 50%;
+  padding: 2em;
 }
 
 .footer-buttons {
   justify-content: space-between;
+}
+
+.main-text {
+  color: var(--colorLight);
+}
+
+.main-title {
+  color: var(--yellow);
 }
 
 .upper-footer {
@@ -37,8 +54,22 @@ footer {
   padding: 3em;
 }
 
+.image-card {
+  /* padding: 2em;
+  width: 50%;
+  justify-content: left; */
+}
+
 .d-flex {
   display: flex;
+}
+
+.justify-content {
+  justify-content: right;
+}
+
+.justify-content-left {
+  justify-content: left;
 }
 
 a {
