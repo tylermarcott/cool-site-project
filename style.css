@@ -1,0 +1,47 @@
+:root {
+  --background: #061130;
+  --testBackground: rgb(75, 75, 160);
+  --colorLight: #f4f6f8;
+  --gray: #dadada;
+}
+
+header {
+  justify-content: space-between;
+}
+
+body {
+  outline: 1px dotted purple;
+  background-color: var(--testBackground);
+  margin: 0;
+}
+
+footer {
+  background-color: var(--colorLight);
+}
+
+
+.header-buttons {
+  justify-content: space-between;
+}
+
+.footer-buttons {
+  justify-content: space-between;
+}
+
+.upper-footer {
+  padding: 0.5em;
+}
+
+.lower-footer {
+  background-color: var(--gray);
+  padding: 3em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+a {
+  color: var(--colorLight);
+  justify-content: space-between;
+}
